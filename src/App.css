@@ -18,6 +18,12 @@
     box-shadow: 0 0 10px gray;
 
 }
+.container-h3{
+background-color: white;
+text-align: center;
+display: flex;
+justify-content: space-around;
+}
 .transaction-list{
     margin: 0;
     padding: 0;

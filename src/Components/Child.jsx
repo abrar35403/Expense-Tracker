@@ -54,8 +54,8 @@ const Child = () => {
   return (
     <div className="container">
       <h1 className="text-center">Expense Tracker</h1>
-      <h3>
-        Your Balance <br /> {getIncome() + getExpense()}
+      <h3 className="container-h3">
+        <div>Your Balance</div> <div>{getIncome() + getExpense()}</div>
       </h3>
       <div className="expense-container">
         <h3>
